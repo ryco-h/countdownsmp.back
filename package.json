@@ -1,0 +1,26 @@
+{
+  "name": "daffa-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Dudu",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/storage": "^6.9.0",
+    "axios": "^1.2.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "fetch": "^1.1.0",
+    "fs": "^0.0.1-security",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.20",
+    "sequelize": "^6.28.0",
+    "sequelize-cli": "^6.5.2"
+  },
+  "scripts": {
+    "start": "nodemon index.js --ignore tmp/ --ignore static/"
+  },
+  "devDependencies": {},
+  "description": ""
+}
